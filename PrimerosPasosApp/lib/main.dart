@@ -48,7 +48,7 @@ class MyApp extends StatelessWidget {
       },
       scaffoldMessengerKey: NotificationsService.messengerKey,
       theme: ThemeData.light().copyWith(
-          scaffoldBackgroundColor: const Color.fromRGBO(189, 189, 189, 1)),
+          scaffoldBackgroundColor: const Color.fromARGB(246, 189, 189, 189)),
     );
   }
 }
